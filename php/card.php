@@ -4,8 +4,7 @@
 
 ?>
 
-<!DOCTYPE html>
-<body>
+
     <?php foreach ($api as $key) {
         
     ?>
@@ -18,6 +17,4 @@
         <h6><?php echo $key['year'] ?></h6>
     </div>
     <?php }?>
-</body>
 
-</html>
